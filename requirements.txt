@@ -1,9 +1,6 @@
 # Core framework
 django>=4.2
 
-# File system management
-os
-pathlib
 
 # Utilities
 djangorestframework>=3.14  # For building APIs
