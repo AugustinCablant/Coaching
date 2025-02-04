@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GusCoaching - Home</title>
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'static/styles.css' %}">
 </head>
 <body>
     <header>
-        <h1>Welcome to GusCoaching!</h1>
+        <h1 style="text-align: center;">Welcome to GusCoaching! 🏃‍♂️🏃‍♀️</h1>
+        <img src="{% static 'images/Boulbi.png' %}" alt="Boulbi image" style="width: 1400px; height: 800px;">
         <nav>
             <ul>
                 <li><a href="{% url 'home' %}">Home</a></li>
@@ -23,16 +24,27 @@
 
     <main>
         <section class="hero">
-            <h2>Your Running Companion</h2>
-            <p>Join GusCoaching to access personalized 5k, 10k, half-marathon & marathon training plans, track your progress, and achieve your running goals.</p>
-            <img src="{% static 'images/hero.jpg' %}" alt="Runner image">
+            <h2>Your Running Companion 🏃‍♂️🏃‍♀️</h2>
+            <p>Join GusCoaching to access personalized 5k, 10k, half-marathon & marathon training plans 📋, track your progress 📈, and achieve your running goals.</p>
             <a href="{% url 'register' %}" class="btn btn-orange">Get Started</a>
+        </section>
+
+        <section class="testimonials">
+            <h2>What My Athletes Are Saying 🗣️</h2>
+            <div class="testimonial">
+                <p>?? 🎯🔥”</p>
+                <h4>- Iba</h4>
+            </div>
+            <div class="testimonial">
+                <p>“ 🚀📈”</p>
+                <h4>- Théau</h4>
+            </div>
         </section>
         
 
         <section class="about">
             <h2>About GusCoaching</h2>
-            <p>GusCoaching is a platform designed to help runners of all levels train for races and achieve their best performance. We offer personalized training plans, progress tracking, and expert tips to keep you on the right track.</p>
+            <p>GusCoaching 🏃‍♂️🏃‍♀️ is a platform designed to help runners of all levels train for races 🏁 and achieve their best performance 💪. We offer personalized training plans 📋, progress tracking 📈, and expert tips 🧠 to keep you on the right track 🛤️.</p>
         </section>
 
         <section class="features">
