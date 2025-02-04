@@ -111,3 +111,66 @@ header {
     margin-top: 0.5rem;
 }
 
+.about-me {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e8f5e9; /* Vert doux */
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+
+.about-me h2 {
+    font-size: 2.2rem;
+    color: #1b5e20; /* Vert foncé */
+    margin-bottom: 1rem;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Centre verticalement l'image et le texte */
+    justify-content: flex-start; /* L'image est alignée à gauche */
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.profile-img {
+    width: 300px; /* Taille de l'image */
+    height: 300px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1b5e20; /* Bordure verte */
+}
+
+.details {
+    text-align: left;
+    max-width: 500px; /* Limite la largeur des détails */
+}
+
+.details p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.details strong {
+    font-size: 1.3rem;
+    color: #1b5e20;
+}
+
+/* Changer la couleur des liens dans la section Get in Touch en blanc */
+.get-in-touch a {
+    color: white;  /* La couleur des liens en blanc */
+    text-decoration: none;  /* Supprime le soulignement par défaut */
+}
+
+.get-in-touch a:hover {
+    color: #FF5733;  /* Couleur au survol, ici en orange */
+    text-decoration: underline;  /* Souligner le lien au survol */
+}

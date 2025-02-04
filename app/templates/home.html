@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GusCoaching - Home</title>
     {% load static %}
-    <link rel="stylesheet" href="{% static 'static/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
     <header>
         <h1 style="text-align: center;">Welcome to GusCoaching! 🏃‍♂️🏃‍♀️</h1>
-        <img src="{% static 'images/Boulbi.png' %}" alt="Boulbi image" style="width: 1400px; height: 800px;">
+        <img src="{% static 'images/Boulbi.png' %}" alt="Boulbi image">
         <nav>
             <ul>
                 <li><a href="{% url 'home' %}">Home</a></li>
@@ -25,7 +25,8 @@
     <main>
         <section class="hero">
             <h2>Your Running Companion 🏃‍♂️🏃‍♀️</h2>
-            <p>Join GusCoaching to access personalized 5k, 10k, half-marathon & marathon training plans 📋, track your progress 📈, and achieve your running goals.</p>
+            <p>Join GusCoaching to access personalized 5k, 10k, half-marathon & marathon training plans 📋,  
+                track your progress 📈, and achieve your running goals.</p>
             <a href="{% url 'register' %}" class="btn btn-orange">Get Started</a>
         </section>
 
@@ -44,7 +45,13 @@
 
         <section class="about">
             <h2>About GusCoaching</h2>
-            <p>GusCoaching 🏃‍♂️🏃‍♀️ is a platform designed to help runners of all levels train for races 🏁 and achieve their best performance 💪. We offer personalized training plans 📋, progress tracking 📈, and expert tips 🧠 to keep you on the right track 🛤️.</p>
+            <p>
+                GusCoaching 🏃‍♂️🏃‍♀️ is a platform designed to help runners of all levels train for races 🏁 and achieve their best performance 💪.<br>
+                We offer personalized training plans 📋,<br>
+                progress tracking 📈,<br>
+                and expert tips 🧠 to keep you on the right track 🛤️.<br>
+            </p>
+            
         </section>
 
         <section class="about-me">
@@ -59,7 +66,7 @@
                     <p>Dreaming of competing in the Olympic Games on the marathon stage 🌍🏃‍♂️🇫🇷</p>
                 </div>
             </div>
-        </section>
+        </section>        
         
 
         <section class="features">
@@ -69,6 +76,19 @@
                 <li>Track your training progress and performance 🎯 </li>
             </ul>
         </section>
+
+
+        <section class="get-in-touch">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, requests, or information you'd like to share with me, please shoot!</p>
+            <ul>
+                <li><strong>Instagram:</strong> <a href="https://www.instagram.com/augustin_cablant" target="_blank">@augustin_cablant</a></li>
+                <li><strong>Email:</strong> <a href="mailto:augustin.cablantca@gmail.com">augustin.cablantca@gmail.com</a></li>
+            </ul>
+        </section>
+
+        
+
     </main>
 
     <footer>
